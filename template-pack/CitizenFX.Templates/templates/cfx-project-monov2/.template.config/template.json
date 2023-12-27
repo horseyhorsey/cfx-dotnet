@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Cfx.re",
+    "classifications": ["CitizenFX"],
+    "identity": "CitizenFX.Templates.Project.MonoV2.CSharp",
+    "name": "CitizenFX Resource MonoV2",
+    "shortName": "cfx-resource-monov2",
+    "sourceName": "Resource2",
+    "defaultName": "Resource2",
+    "primaryOutputs": [ { "path": "Client/Resource2.Client.csproj" }, { "path": "Server/Resource2.Server.csproj" } ],
+    "postActions": [{
+        "description": "Add projects to solution",
+        "manualInstructions": [ ],
+        "primaryOutputIndexes": "0;1",
+        "actionId": "D396686C-DE0E-4DE6-906D-291CD29FC5DE",
+        "continueOnError": true
+    }]
+}
